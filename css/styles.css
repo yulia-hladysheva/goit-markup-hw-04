@@ -17,8 +17,6 @@ button {
 }
 
 /* #region header */
-.header {
-}
 
 .logo {
   font-family: "Raleway", sans-serif;
@@ -32,15 +30,6 @@ button {
 
 .logo-header-span {
   color: #2e2f42;
-}
-
-.nav {
-}
-
-.menu {
-}
-
-.menu-item {
 }
 
 .menu-link {
@@ -57,13 +46,10 @@ button {
 }
 
 .address {
-}
-
-.address-menu {
+  font-style: normal;
 }
 
 .address-menu-link {
-  font-style: normal;
   font-weight: 400;
   font-size: 16px;
   line-height: 1.5;
@@ -92,8 +78,7 @@ button {
 }
 
 .hero-button {
-  box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
-  background: #4d5ae5;
+  background-color: #4d5ae5;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
@@ -110,13 +95,8 @@ button {
 
 /* #region section1 */
 .visually-hidden {
-  position: absolute;
-  width: 1px;
-  height: 1px;
   margin: -1px;
   border: 0;
-  padding: 0;
-  white-space: nowrap;
   clip-path: inset(100%);
   clip: rect(0 0 0 0);
   overflow: hidden;
@@ -138,14 +118,22 @@ button {
 /* #endregion section1 */
 
 /* #region section2 */
-.section2 {
+.team {
+  background-color: #f4f4fd;
 }
+
 .our-team-title {
   font-weight: 700;
   font-size: 36px;
-  line-height: 1.11111;
+  line-height: 1.11;
   letter-spacing: 0.02em;
   text-align: center;
+  text-transform: capitalize;
+  color: #2e2f42;
+}
+
+.team-item {
+  background-color: #ffffff;
 }
 
 .team-title {
@@ -174,6 +162,7 @@ button {
   letter-spacing: 0.02em;
   text-align: center;
   color: #2e2f42;
+  text-transform: capitalize;
 }
 .porfolio-item-title {
   font-weight: 500;
