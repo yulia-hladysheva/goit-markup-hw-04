@@ -28,7 +28,7 @@ p {
   margin: 0;
 }
 
-.img {
+img {
   display: block;
   max-width: 100%;
   height: auto;
@@ -69,6 +69,7 @@ logo {
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: #4d5ae5;
+  margin-right: 76px;
 }
 
 .logo-header-span {
@@ -78,8 +79,7 @@ logo {
 .menu {
   display: flex;
   gap: 40px;
-  padding-top: 24px;
-  padding-bottom: 24px;
+  padding: 24px 0;
 }
 
 .menu-link {
@@ -167,8 +167,13 @@ logo {
 /* #region section1 */
 
 .visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
   margin: -1px;
   border: 0;
+  padding: 0;
+  white-space: nowrap;
   clip-path: inset(100%);
   clip: rect(0 0 0 0);
   overflow: hidden;
@@ -225,6 +230,11 @@ logo {
 .team-item {
   background-color: #ffffff;
   width: calc((100% - 72px) / 4);
+  border-radius: 0px 0px 4px 4px;
+}
+
+.team-container {
+  padding: 32px 0;
 }
 
 .team-title {
@@ -234,7 +244,6 @@ logo {
   letter-spacing: 0.02em;
   text-align: center;
   color: #2e2f42;
-  margin-top: 32px;
   margin-bottom: 8px;
 }
 
@@ -253,6 +262,7 @@ logo {
   border-bottom: 1px solid #e7e9fc;
   border-left: 1px solid #e7e9fc;
   border-right: 1px solid #e7e9fc;
+  padding: 32px 16px;
 }
 
 .portfolio-title {
@@ -272,6 +282,7 @@ logo {
   flex-wrap: wrap;
   align-content: center;
   column-gap: 24px;
+  row-gap: 48px;
 }
 
 .portfolio-item {
