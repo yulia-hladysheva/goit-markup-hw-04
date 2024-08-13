@@ -57,7 +57,6 @@ img {
 
 .nav {
   display: flex;
-  gap: 76px;
   align-items: center;
 }
 
@@ -137,8 +136,8 @@ img {
   text-align: center;
   color: #fff;
   max-width: 496px;
-  padding-bottom: 48px;
   margin: 0 auto;
+  margin-bottom: 48px;
 }
 
 .hero-button {
@@ -253,7 +252,6 @@ img {
   line-height: 1.5;
   letter-spacing: 0.02em;
   text-align: center;
-  margin-bottom: 32px;
 }
 /* #endregion section2 */
 
@@ -295,7 +293,6 @@ img {
   line-height: 1.2;
   letter-spacing: 0.02em;
   color: #2e2f42;
-  padding-top: 32px;
   margin-bottom: 8px;
 }
 
@@ -304,7 +301,6 @@ img {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
-  margin-bottom: 32px;
 }
 /* #endregion section3 */
 
@@ -315,7 +311,7 @@ img {
   padding-bottom: 100px;
 }
 
-.logo {
+.logo-footer {
   display: inline-block;
   margin-bottom: 16px;
 }
