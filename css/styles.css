@@ -148,6 +148,7 @@ img {
       rgba(46, 47, 66, 0.7)
     ),
     url(/images/hero/people-office\ 1.jpg);
+  max-width: 1440px;
 }
 
 .hero-container {
@@ -211,6 +212,16 @@ img {
 
 .studio-list-item {
   width: calc((100% - 72px) / 4);
+}
+
+.studio-list-icon {
+  width: 264px;
+  height: 112px;
+  border: 1px solid #000;
+  border-radius: 4px;
+  background-color: #f4f4fd;
+  padding: 24px 100px;
+  margin-bottom: 8px;
 }
 
 .studio-title {
@@ -277,6 +288,12 @@ img {
   line-height: 1.5;
   letter-spacing: 0.02em;
   text-align: center;
+}
+
+.team-icon {
+  width: 40px;
+  height: 40px;
+  background-color: #4d5ae5;
 }
 /* #endregion section2 */
 
